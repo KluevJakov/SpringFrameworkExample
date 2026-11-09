@@ -1,3 +1,5 @@
+package ru.jafix.app;
+
 public class UserRepository {
 
     public void save() {

@@ -4,6 +4,10 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="userRepository" class="ru.jafix.app.UserRepository" />
 
+    <bean id="userService" class="ru.jafix.app.UserService" >
+           <constructor-arg ref="userRepository" />
+    </bean>
 
 </beans>
