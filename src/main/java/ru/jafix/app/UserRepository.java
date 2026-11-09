@@ -1,8 +1,6 @@
 package ru.jafix.app;
 
-import org.springframework.stereotype.Repository;
 
-@Repository
 public class UserRepository {
 
     public void save() {
